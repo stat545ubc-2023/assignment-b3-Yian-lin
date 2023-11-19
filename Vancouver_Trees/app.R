@@ -12,8 +12,8 @@
 # feature is useful because now users can interact with the table. For example,
 # they can decide how many observations should be shown per page, and they can
 # sort the table by any variable.
-# 4. Allow the user to download your table as a .csv file. This feature is useful 
-# because they can not only look at the data, but also download the data as a
+# 4. Allow users to download the table as a .csv file. This feature is useful 
+# because users can not only look at the data, but also download the data as a
 # .csv file.
 
 library(shiny)
@@ -24,7 +24,7 @@ library(DT)
 vancouver_trees <- read.csv("vancouver_trees.csv")
 # tidy dataframe
 vancouver_trees$tree_id <- as.integer(vancouver_trees$tree_id)
-# select only a few columns
+# select some columns
 vancouver_trees <- vancouver_trees %>% 
   select(-c(std_street,cultivar_name, on_street_block,genus_name,
             civic_number, plant_area, street_side_name, assigned, on_street))
@@ -35,7 +35,7 @@ ui <- fluidPage(
     # Application title
     titlePanel("Trees in Vancouver"),
 
-    # Sidebar with a slider input for number of bins 
+    # Sidebar with a checkbox group input for neighbourhoods
     sidebarLayout(
         sidebarPanel(
             ### Inputs
