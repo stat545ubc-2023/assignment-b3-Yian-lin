@@ -5,16 +5,16 @@
 # 1. Allow users to filter by neighborhoods in Vancouver. This feature is useful
 # because users may only want to look at or download tree data for one or some
 # neighborhoods.
-# 2. The number of observations found whenever the filter changes is shown at
-# the bottom of the table. This feature is useful because users can know clearly
-# the number of observations found after applying the filter.
-# 3. Use the DT package to turn a static table into an interactive table. This 
+# 2. Use the DT package to turn a static table into an interactive table. This 
 # feature is useful because now users can interact with the table. For example,
 # they can decide how many observations should be shown per page, and they can
 # sort the table by any variable.
+# 3. The number of observations found whenever the filters change is shown at
+# the bottom of the table. This feature is useful because users can know clearly
+# the number of observations found after applying the filters.
 # 4. Allow users to download the table as a .csv file. This feature is useful 
-# because users can not only look at the data, but also download the data as a
-# .csv file.
+# because users can not only look at the data, but also download the whole dataset
+# or a subset of it (i.e. data for trees in one or some neighborhoods) as a .csv file.
 
 library(shiny)
 library(dplyr)
