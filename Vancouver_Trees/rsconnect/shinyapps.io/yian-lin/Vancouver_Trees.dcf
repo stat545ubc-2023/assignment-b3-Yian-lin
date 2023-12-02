@@ -1,0 +1,12 @@
+name: Vancouver_Trees
+title: Vancouver_Trees
+username: yian-lin
+account: yian-lin
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10574360
+bundleId: 7946135
+url: https://yian-lin.shinyapps.io/Vancouver_Trees/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
