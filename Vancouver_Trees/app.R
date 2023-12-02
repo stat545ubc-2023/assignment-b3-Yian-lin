@@ -40,8 +40,8 @@ ui <- fluidPage(
     #Add a fluid row
     fluidRow(column(3, # add an image
                     br(), #add a line break
-                    HTML('<center><img src="image.jpeg" width=280></center>'), #add the image
-                    br()
+                  
+                    HTML('<center><img src="image.jpeg" height=218 width=300></center>') #add the image
                     ),
              
              column(9, # add a brief introduction
