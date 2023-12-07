@@ -6,6 +6,8 @@
 ### Link to the app
 This Shiny app can be accessed through this link: https://yian-lin.shinyapps.io/Vancouver_Trees_2/.
 
+The previous version can be accessed through https://yian-lin.shinyapps.io/Vancouver_Trees/.
+
 ### R code and data
 R code and data used to build this app can be found in the `Vancouver_Trees` folder. The file *app.R* contains the R code used, and the file *vancouver_trees.csv* is the CSV-formatted version of the `vancouver_trees` dataset included in the [`datateachr` R package](https://github.com/UBC-MDS/datateachr). The data presented in this app is a subset of the *vancouver_trees.csv*. The R code used to create this subset can be found in lines 25 to 32 in *app.R*.
 
